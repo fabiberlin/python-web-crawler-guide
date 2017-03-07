@@ -19,7 +19,7 @@ First, we need a way of making http requests to download web content.  `urllib2`
 Next we also need a way of isolating the links in the web pages we need an html parser.  One is python library that is widely known is BeautifulSoup, but is a little slow for our purposes.  More preferable would be to use the `lxml.html` library.  So far you should have this:
 
 ```
-imoprt urllib2    # Library for url fetching
+import urllib2    # Library for url fetching
 import lxml.html  # Library for html parsing
 ```
 
